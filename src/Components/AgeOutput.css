@@ -1,0 +1,11 @@
+.animate{
+  animation: myAnimation .5s ease-in;
+}
+@keyframes myAnimation {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
